@@ -1,0 +1,47 @@
+/* global rules */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: 0 1em;
+}
+.card {
+    width: 270px;
+    margin: 15px;
+    text-align:center ;
+}
+@media (max-width:315px) {
+    .card{
+        width:220px;
+    }
+}
+.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+.card h2{
+    font-weight: 700;
+    font-size: 22px;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+}
+.card p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
